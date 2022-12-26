@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>The Second Check point</title>
 </head>
 <body>
     <header>
         <h1>Portfolio</h1>
-        <nav>
+        <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#work">Work</a>
@@ -45,7 +47,7 @@
 
                 <div>
                     <p>Ichrak Ben Guiza diplomée en Genie Electrique, et developpeur junior ,je n'ai pas encore d'experience proffessionnel dans le domaine du developement Web mais je suis à la recherche d'un poste similaire.</p>
-                     <img src="others/img1.png" alt="photo de profil">
+                     <img  id="img1" src="others/img1.png" alt="photo de profil">
 
                 </div>
         </section>
@@ -54,7 +56,7 @@
             <h1>Work</h1>
                 <div >
                     <h2>Mes skills</h2>
-                        <table border="1">
+                        <table border="1" class="tableau">
                             <tr>
                                 <th>Skills</th>
                                 <th>HTML</th>
@@ -120,45 +122,54 @@
 
                     <br>
                     <br>
-                    <button type="submit"> Envoyer</button>
-                    <button type="reset">Reset </button>
+                        <div id="boutton">
 
+                    
+                            <button type="submit"> Envoyer</button>
+                            <button type="reset">Reset </button>
+                         </div>
                 </form>
         </section>
 
         <section id="contact">
             <h1>Contact</h1>
                 <div>
-                    <p>Numéro : 22893907</p>
-                    <p>Email: benguizaichrak4@gmail.com</p>
+                    <div class="contact">
+
                     
-                        <div>
+                            <p>Numéro : 22893907</p>
+                            <p>Email: benguizaichrak4@gmail.com</p>
+                    
+                        </div>
+                    
+                    
+                        <div >
                             
                             <a href="https://fr-fr.facebook.com/" target="_blank">
-                                <img  src="others/img2.png" alt="Ma page Facebook" width="50px" height="50px">
+                                <img id="img2" src="others/img2.png" alt="Ma page Facebook" >
                             </a>
                         </div>
 
                         <div>
                             <a href="https://fr.linkedin.com/" target="_blank">
-                                <img src="others/img3.png" alt="Ma page Linkedin" width="50px" height="50px">
+                                <img id="img3" src="others/img3.png" alt="Ma page Linkedin" >
                             </a>
                         </div>
                     
                         <div>
                             <a href="https://twitter.com/?lang=fr" target="_blank">
-                                <img id="3" src="others/img6.png" alt="Ma page Twitter" width="50px" height="50px">
+                                <img id="img4" src="others/img6.png" alt="Ma page Twitter" >
                             </a>
                             
                         </div>
-                     
+                    
                 </div>
         </section>
        
     </main>
 
 
-    <footer>
+    <footer class="foot">
         <p> <b> Tous droits d'auteur réservés &copy; </b>  </p>
     </footer>
     

@@ -1,0 +1,42 @@
+h1{
+    background-color:palevioletred;
+}
+.navbar{
+    display: inline;
+   padding-left: 1000px;
+}
+html{
+    font-family: roboto;
+}
+.foot{
+   text-align: center;
+}
+h1{
+    text-align: center;
+   
+}
+#img1{
+    border-radius: 50%;
+    border: 2px solid pink ;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+.tableau{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-left: 300px;
+}
+h2{
+    text-decoration: underline;
+}
+#img2, #img3, #img4{
+    width: 50px;
+    height: 50px;
+}
+#boutton{
+    text-align: center;
+}
